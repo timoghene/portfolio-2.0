@@ -1,0 +1,265 @@
+body{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    background-color: #1B2430;
+    
+}
+h1,h2,h3,h4{
+    color:white;
+}
+p{
+    color:white;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+    color:#CDF0EA;
+    font-size: 35px;
+    font-weight: 600;
+}
+.sub{
+    color:  #F9F9F9
+}
+.headers{
+    color:grey;
+}
+.headers-a{
+    color:black;
+}
+.timo{
+    color: white;
+}
+.timo-a{
+
+}
+.timo-html{
+    color:orangered;
+}
+.timo-css{
+    color:lightblue;
+}
+.timo-js{
+    color:yellow
+}
+.timo-bs{
+    color:purple;
+}
+.icon{
+    color:lightskyblue;
+}
+.img{
+    width:85px;
+    height:35px;
+}
+.img-a{
+    width:85px;
+    height:100px;
+    border-radius: 50%;
+}
+.top-container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mid{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#About{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#education{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.education-sub{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#skills{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.skills{
+ padding-top: 10px;
+}
+#projects{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.project-sub{
+    text-align:center;
+}
+.project-img{
+    width:20%;
+    height:15%;
+}
+.mid{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+#Services{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.services-sub{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#contact-me{
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+}
+.contact-sub{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contact{
+    background-color: white;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+#hire-me{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+   text-align: center;
+   background-color: white;;
+}
+.hire-me-sub{
+    padding-top: 30px;
+
+}
+.hire{
+    color: #ff7e5f;
+    color: -webkit-linear-gradient(to right, #ff7e5f, #feb47b)
+}
+#footer{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.footer-sub{
+    text-align: center;
+}
+
+
+
+
+/* skills progress */
+
+.progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+  }
+  
+  .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .progress .progress-left {
+    left: 0;
+  }
+  
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  
+  .progress .progress-right {
+    right: 0;
+  }
+  
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+  }
+  
+  .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+  
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+  
+  div.h4 {
+    line-height: 1rem;
+  }
