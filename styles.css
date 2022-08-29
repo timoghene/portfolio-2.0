@@ -158,8 +158,7 @@ a{
 
 }
 .hire{
-    color: #ff7e5f;
-    color: -webkit-linear-gradient(to right, #ff7e5f, #feb47b)
+    color: #333;
 }
 #footer{
     padding-top: 20px;
